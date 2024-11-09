@@ -15,21 +15,21 @@
 
 ### 手順
 
-1. `.env` ファイルを作成し、整理対象のディレクトリパスを設定します。
+1. `.env` ファイルを作成し、整理対象のディレクトリパスを設定。
 
     ```sh
     TARGET_DIR=/Users/UnoHa/Documents/ScreenShot
     ```
 
-2. `.env` ファイルをプロジェクトのルートディレクトリに配置します。
+2. `.env` ファイルをプロジェクトのルートディレクトリに配置。
 
-3. `sort_files.sh` スクリプトに実行権限を付与します。
+3. `sort_files.sh` スクリプトに実行権限を付与。
 
     ```sh
     chmod +x /path/to/your/sort_files.sh
     ```
 
-4. スクリプトを実行します。
+4. スクリプトを実行
 
     ```sh
     /path/to/your/sort_files.sh
